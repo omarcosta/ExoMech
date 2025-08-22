@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="ExoMech"
+run/main_scene="uid://dhxm3kok4mjm3"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://autoloads/game_manager.gd"
+AudioManager="*res://autoloads/audio_manager.gd"
+SaveManager="*res://autoloads/save_manager.gd"
